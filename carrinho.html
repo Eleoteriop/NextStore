@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="./styles/carrinho.css">
+    <link rel="stylesheet" href="./styles/global.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="header">
+                <nav>
+                    <a href="index.html">
+                        <h1 class="logo">Next<span>Store</span></h1>
+                    </a>
+
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contatos">Contatos</a></li>
+                    </ul>
+
+                    <div class="nav-icon">
+
+                        <a href="./carrinho.html" id="carrinho" class="icone-link">
+                            <img width="40" height="40" src="https://img.icons8.com/sf-regular/ffffff/48/buy.png"
+                                class="cart-button" alt="Carrinho">
+                        </a>
+
+                        <a href="#" id="menu" class="icone-link">
+                            <img width="40" height="40" src="https://img.icons8.com/ios/50/ffffff/menu--v7.png"
+                                class="menu-button" alt="Menu">
+                        </a>
+
+                    </div>
+                </nav>
+
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div id="lista-carrinho"></div>
+
+        <div id="total-carrinho">Total do carrinho: R$ <span id="total-geral">0.00</span></div>
+    </main>
+
+    <div class="menu-lateral" id="menu-lateral">
+
+        <button class="fechar-menu" id="fechar-menu">×</button>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="index.html#sobre">Sobre</a></li>
+            <li><a href="index.html#contatos">Contatos</a></li>
+        </ul>
+
+    </div>
+
+
+    <div id="carrinho-produto"></div>
+
+    <script src="./js/menu.js" defer></script>
+    <script src="./js/carrinho.js" defer></script>
+</body>
+
+</html>

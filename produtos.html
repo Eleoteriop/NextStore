@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="./styles/produtos.css">
+    <link rel="stylesheet" href="./styles/global.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="header">
+                <nav>
+                    <a href="index.html">
+                        <h1 class="logo">Next<span>Store</span></h1>
+                    </a>
+
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contatos">Contatos</a></li>
+                    </ul>
+
+                    <div class="nav-icon">
+
+                        <a href="./carrinho.html" id="carrinho" class="icone-link">
+                            <img width="40" height="40" src="https://img.icons8.com/sf-regular/ffffff/48/buy.png"
+                                class="cart-button" alt="Carrinho">
+                        </a>
+
+                        <a href="#" id="menu" class="icone-link">
+                            <img width="40" height="40" src="https://img.icons8.com/ios/50/ffffff/menu--v7.png"
+                                class="menu-button" alt="Menu">
+                        </a>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="produtos">
+            <h1>Camisas NBA</h1>
+            <img src="./img/nba logo.svg" alt="Logo NBA">
+
+            <div class="filtros">
+                <ul>
+                    <li><button type="button" data-filtro="todos">Todos</button></li>
+                    <li><button type="button" data-filtro="Atlanta Hawks">Atlanta Hawks</button></li>
+                    <li><button type="button" data-filtro="Boston Celtics">Boston Celtics</button></li>
+                    <li><button type="button" data-filtro="Brooklyn Nets">Brooklyn Nets</button></li>
+                    <li><button type="button" data-filtro="Charlotte Hornets">Charlotte Hornets</button></li>
+                    <li><button type="button" data-filtro="Chicago Bulls">Chicago Bulls</button></li>
+                    <li><button type="button" data-filtro="Cleveland Cavaliers">Cleveland Cavaliers</button></li>
+                    <li><button type="button" data-filtro="Dallas Mavericks">Dallas Mavericks</button></li>
+                    <li><button type="button" data-filtro="Denver Nuggets">Denver Nuggets</button></li>
+                    <li><button type="button" data-filtro="Detroit Pistons">Detroit Pistons</button></li>
+                    <li><button type="button" data-filtro="Golden State Warriors">Golden State Warriors</button></li>
+                    <li><button type="button" data-filtro="Houston Rockets">Houston Rockets</button></li>
+                    <li><button type="button" data-filtro="Indiana Pacers">Indiana Pacers</button></li>
+                    <li><button type="button" data-filtro="Los Angeles Clippers">Los Angeles Clippers</button></li>
+                    <li><button type="button" data-filtro="Los Angeles Lakers">Los Angeles Lakers</button></li>
+                    <li><button type="button" data-filtro="Memphis Grizzlies">Memphis Grizzlies</button></li>
+                    <li><button type="button" data-filtro="Miami Heat">Miami Heat</button></li>
+                    <li><button type="button" data-filtro="Milwaukee Bucks">Milwaukee Bucks</button></li>
+                    <li><button type="button" data-filtro="Minnesota Timberwolves">Minnesota Timberwolves</button></li>
+                    <li><button type="button" data-filtro="New Orleans Pelicans">New Orleans Pelicans</button></li>
+                    <li><button type="button" data-filtro="New York Knicks">New York Knicks</button></li>
+                    <li><button type="button" data-filtro="Oklahoma City Thunder">Oklahoma City Thunder</button></li>
+                    <li><button type="button" data-filtro="Orlando Magic">Orlando Magic</button></li>
+                    <li><button type="button" data-filtro="Philadelphia 76ers">Philadelphia 76ers</button></li>
+                    <li><button type="button" data-filtro="Phoenix Suns">Phoenix Suns</button></li>
+                    <li><button type="button" data-filtro="Portland Trail Blazers">Portland Trail Blazers</button></li>
+                    <li><button type="button" data-filtro="Sacramento Kings">Sacramento Kings</button></li>
+                    <li><button type="button" data-filtro="San Antonio Spurs">San Antonio Spurs</button></li>
+                    <li><button type="button" data-filtro="Toronto Raptors">Toronto Raptors</button></li>
+                    <li><button type="button" data-filtro="Utah Jazz">Utah Jazz</button></li>
+                    <li><button type="button" data-filtro="Washington Wizards">Washington Wizards</button></li>
+                </ul>
+            </div>
+
+            <div class="lista-produtos" id="lista-produtos"></div>
+
+        </section>
+    </main>
+
+    <div class="menu-lateral" id="menu-lateral">
+
+        <button class="fechar-menu" id="fechar-menu">×</button>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="index.html#sobre">Sobre</a></li>
+            <li><a href="index.html#contatos">Contatos</a></li>
+        </ul>
+
+    </div>
+    
+    <script src="./js/menu.js" defer></script>
+    <script src="./js/produtos.js" defer></script>
+
+</body>
+
+</html>

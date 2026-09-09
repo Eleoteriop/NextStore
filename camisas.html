@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camisa</title>
+    <link rel="stylesheet" href="./styles/camisa.css">
+    <link rel="stylesheet" href="./styles/global.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="header">
+                <nav>
+                    <a href="index.html">
+                        <h1 class="logo">Next<span>Store</span></h1>
+                    </a>
+
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contatos">Contatos</a></li>
+                    </ul>
+
+                    <div class="nav-icon">
+
+                        <a href="./carrinho.html" id="carrinho" class="icone-link">
+                            <img width="40" height="40" src="https://img.icons8.com/sf-regular/ffffff/48/buy.png"
+                                class="cart-button" alt="Carrinho">
+                        </a>
+
+                        <a href="#" id="menu" class="icone-link">
+                            <img width="40" height="40" src="https://img.icons8.com/ios/50/ffffff/menu--v7.png"
+                                class="menu-button" alt="Menu">
+                        </a>
+
+                    </div>
+                </nav>
+
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <article id="produto-detalhes" class="produto-detalhes" data-id="atlanta-17-20">
+
+            <div class="imagem-detalhes">
+                <img id="produto-imagem" src="" alt="">
+            </div>
+
+            <div class="info-detalhes">
+                <h2 id="produto-nome">Camisa Atlanta Hawks 17-20</h2>
+                <p id="produto-preco" class="preco"></p>
+                <p id="produto-time" class="time">Atlanta Hawks</p>
+                <p id="produto-estoque" class="estoque">Em estoque</p>
+
+                <h3>Descrição</h3>
+                <p id="produto-descricao" class="descricao"></p>
+
+                <div class="acao-compra">
+                    <label for="produto-tamanho">Escolha um tamanho</label>
+                    <select name="tamanho" id="produto-tamanho">
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="pequeno">P</option>
+                        <option value="medio">M</option>
+                        <option value="grande">G</option>
+                        <option value="extra-grande">GG</option>
+                        <option value="duplo-extra-grande">2GG</option>
+                    </select>
+                    <label for="produto-quantidade">Quantidade:</label>
+                    <input type="number" id="produto-quantidade" name="quantidade" min="1" max="10" value="1">
+                    <button type="button" class="btn-comprar" id="btn-adicionar-carrinho">Adicionar ao carrinho</button>
+                </div>
+            </div>
+        </article>
+
+        <a class="voltar-produtos" href="./produtos.html"> ← Voltar para produtos</a>
+    </main>
+
+    <div class="menu-lateral" id="menu-lateral">
+
+        <button class="fechar-menu" id="fechar-menu">×</button>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="index.html#sobre">Sobre</a></li>
+            <li><a href="index.html#contatos">Contatos</a></li>
+        </ul>
+
+    </div>
+
+    <script src="./js/menu.js" defer></script>
+    <script src="./js/produtos.js" defer></script>
+    <script src="./js/camisas.js" defer></script>
+</body>
+
+</html>
