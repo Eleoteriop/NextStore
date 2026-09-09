@@ -86,7 +86,7 @@ NextStore/<br>
 
 ## 💻 Como executar
 * Clone este repositório <br>
-    * git clone URL_DO_SEU_REPOSITORIO
+    * git clone URL_DO_SEU_REPOSITORIO - https://github.com/Eleoteriop/NextStore.git
 * Entre na pasta do projeto
     * cd loja-camisas
 * Abra o projeto
