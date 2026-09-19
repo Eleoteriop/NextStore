@@ -3,6 +3,9 @@ Projeto de uma loja virtual de camisetas desenvolvido com foco em Front-End.
 
 A aplicação simula uma experiência de compra, permitindo visualizar os produtos, escolher tamanhos, alterar quantidades e adicionar itens ao carrinho.
 
+## 🚀 Demonstração
+🔗 [Acessar o projeto online](https://next-store-smoky.vercel.app/)
+
 ⚠️ Este projeto é apenas uma demonstração de Front-End.
 Não possui sistema de login, banco de dados ou processamento de pagamentos reais.
 ## 🛍️ Funcionalidades
